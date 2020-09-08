@@ -1,0 +1,16 @@
+{
+  "name": "code-specification",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "eslint": "eslint --ext .js lib/"
+  },
+  "keywords": [],
+  "author": "hakuna-tata",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.8.1",
+    "eslint-plugin-react": "^7.20.6"
+  }
+}
