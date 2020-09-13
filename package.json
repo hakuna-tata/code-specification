@@ -29,7 +29,6 @@
   },
   "lint-staged": {
     "lib/*.{js, jsx}": [
-      "npm run yaml",
       "npm run eslint",
       "git add"
     ]
