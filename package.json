@@ -1,10 +1,11 @@
 {
   "name": "code-specification",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "eslint": "eslint --fix --ext .js,.ts ./",
+    "release": "standard-version",
     "yaml": "js-yaml .orange-ci.yml > .orange-ci.json"
   },
   "keywords": [],
@@ -19,7 +20,8 @@
     "husky": "^4.3.0",
     "js-yaml": "^3.14.0",
     "lint-staged": "^10.3.0",
-    "prettier": "^2.1.1"
+    "prettier": "^2.1.1",
+    "standard-version": "^9.0.0"
   },
   "husky": {
     "hooks": {
