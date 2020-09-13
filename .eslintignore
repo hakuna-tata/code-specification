@@ -1,1 +1,5 @@
-# ESLint更偏向于对语法的提示；需安装 ESLint 插件
+# # Ignore lib files except lib/index.js
+lib/*
+!lib/index.js
+
+.eslintrc.js
