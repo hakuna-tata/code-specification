@@ -1,4 +1,3 @@
-# editorconfig 更偏向于代码风格，有助于维护跨多个编辑器和IDE的同一项目；需安装 EditorConfig for VS Code 插件
 # https://editorconfig.org
 root = true
 
@@ -18,6 +17,7 @@ trim_trailing_whitespace = true
 
 [*.md]
 trim_trailing_whitespace = false
+insert_final_newline = false
 
 [{package.json,.orange-ci.yml}]
 indent_style = space
