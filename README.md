@@ -13,4 +13,4 @@
 **4. husky**
   - 1.借助husky（哈士奇）增强 **pre-commit** 和 **commit-msg** 这两个 Git Hook
   - 2.项目如果越来越大，**pre-commit** 时 ESLint 校验的时间可能越来越长，因此可以借助 **lint-staged** 工具（听这个工具的名字就能够猜测 lint 的是已经放入 Git Stage 暂存区中的代码）减少代码的检测量。
-  - 3.
+  - 3.借助 **@commitlint/{cli, config-conventional}** 工具在 **commit-msg** 时规范 git commit message

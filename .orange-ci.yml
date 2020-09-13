@@ -1,0 +1,7 @@
+dev:
+  push:
+    - stages:
+      - name: hello
+        script: echo "hello"
+      - name: world
+        script: echo "world"
