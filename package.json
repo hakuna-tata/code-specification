@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "eslint": "eslint --ext .js lib/"
+    "eslint": "eslint --ext .js lib/",
+    "yaml": "js-yaml .orange-ci.yml > .orange-ci.json"
   },
   "keywords": [],
   "author": "hakuna-tata",
@@ -13,6 +14,7 @@
     "eslint": "^7.8.1",
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-react": "^7.20.6",
+    "js-yaml": "^3.14.0",
     "prettier": "^2.1.1"
   }
 }
